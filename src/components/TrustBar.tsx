@@ -9,7 +9,7 @@ const items = [
 ];
 
 const TrustBar = () => (
-  <section className="bg-secondary py-12">
+  <section className="bg-card py-12">
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
         {items.map((item, i) => (

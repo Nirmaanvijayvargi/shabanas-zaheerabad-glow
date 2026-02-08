@@ -14,16 +14,27 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center pt-16">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroBridal} alt="Shabana's Beauty Salon luxurious interior" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
+        <img src={heroBridal} alt="Shabana's Beauty Salon bridal makeup showcase" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
       </div>
 
       <div className="relative container mx-auto px-4 py-20">
         {/* Established Banner */}
+        {/* Biggest Ladies Salon Badge */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.15 }}
+          className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground rounded-full px-5 py-2 mb-4 shadow-gold"
+        >
+          <span className="text-sm font-bold tracking-wide uppercase">🏆 The Biggest Ladies Salon in Zaheerabad</span>
+        </motion.div>
+
+        {/* Established Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
           className="inline-flex items-center gap-2 glass-card rounded-full px-5 py-2 mb-8"
         >
           <span className="text-primary">✨</span>
@@ -34,7 +45,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="font-serif text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight max-w-2xl mb-6"
+          className="font-serif text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight max-w-2xl mb-6 text-foreground"
         >
           Zaheerabad's Most{" "}
           <span className="text-gradient-gold italic">Trusted</span>
@@ -76,7 +87,7 @@ const HeroSection = () => {
           <a href="tel:+917780467684" className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg shadow-gold hover:opacity-90 transition-opacity">
             <Phone className="w-5 h-5" /> Call Now
           </a>
-          <a href="#services" className="inline-flex items-center gap-2 border border-primary/30 text-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/10 transition-colors">
+          <a href="#services" className="inline-flex items-center gap-2 border-2 border-foreground/20 text-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-foreground/5 transition-colors">
             View Services
           </a>
         </motion.div>
