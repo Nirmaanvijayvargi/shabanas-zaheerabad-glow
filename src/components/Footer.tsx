@@ -43,7 +43,7 @@ const Footer = () => (
             <p>Mon–Sat: 10 AM – 8 PM</p>
             <p>Sun: 10 AM – 6 PM</p>
             <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="block text-primary hover:opacity-80 transition-opacity">
-              @shabana_beauty_care
+              @shabanabeautyacademygmail.com6
             </a>
           </div>
         </div>
