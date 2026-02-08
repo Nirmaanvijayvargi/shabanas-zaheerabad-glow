@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-dark">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -128,7 +128,7 @@ const TestimonialsSection = () => {
                 value={reviewForm.name}
                 onChange={(e) => setReviewForm({ ...reviewForm, name: e.target.value })}
                 required
-                className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
+                className="w-full px-4 py-3 rounded-lg bg-card border border-border text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
               />
               <textarea
                 placeholder="Share your experience..."
@@ -136,7 +136,7 @@ const TestimonialsSection = () => {
                 onChange={(e) => setReviewForm({ ...reviewForm, review: e.target.value })}
                 required
                 rows={4}
-                className="w-full px-4 py-3 rounded-lg bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
+                className="w-full px-4 py-3 rounded-lg bg-card border border-border text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
               />
               <div className="flex gap-3">
                 <button

@@ -98,7 +98,7 @@ const ServicesSection = () => {
               key={cat.id}
               onClick={() => setActive(cat.id)}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                active === cat.id ? "bg-gradient-gold text-primary-foreground shadow-gold" : "bg-secondary text-foreground/70 hover:bg-secondary/80"
+                active === cat.id ? "bg-gradient-gold text-primary-foreground shadow-gold" : "bg-card text-foreground/70 hover:bg-card/80 border border-border"
               }`}
             >
               <cat.icon className="w-4 h-4" />

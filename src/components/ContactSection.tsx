@@ -4,7 +4,7 @@ import { Phone, MapPin, Clock } from "lucide-react";
 const INSTAGRAM_URL = "https://www.instagram.com/shabanabeautyacademygmail.com6/";
 
 const ContactSection = () => (
-  <section id="contact" className="py-20 bg-gradient-dark">
+  <section id="contact" className="py-20 bg-card">
     <div className="container mx-auto px-4">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
