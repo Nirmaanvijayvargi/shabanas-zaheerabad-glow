@@ -65,16 +65,7 @@ const categories = [
       { name: "Gel & Acrylic Nails", desc: "Long-lasting, salon-quality nail treatments" },
     ],
   },
-  {
-    id: "wellness",
-    label: "Wellness",
-    icon: Flower2,
-    services: [
-      { name: "Head Massage", desc: "Relaxing scalp therapy for stress relief" },
-      { name: "Reflexology", desc: "Pressure-point therapy for total wellbeing" },
-      { name: "Spa Treatments", desc: "Luxurious body treatments for ultimate relaxation" },
-    ],
-  },
+ 
 ];
 
 const ServicesSection = () => {
